@@ -11,7 +11,6 @@ let screenFrame: CGRect = UIScreen.main.bounds
 let screenWidth = screenFrame.size.width
 let screenHeight = screenFrame.size.height
 
-
 let isIPhoneX = (screenWidth >= 375.0 && screenHeight >= 812.0) ? true : false
 let isIPad = UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? true : false
 
@@ -22,3 +21,18 @@ let statusBarNavigationBarHeight: CGFloat = isIPhoneX ? 88.0 : 64.0
 let tabbarSafeBottomMargin: CGFloat = isIPhoneX ? 34.0 : 0.0
 let tabBarHeight: CGFloat = isIPhoneX ? (tabBarTrueHeight+34.0) : tabBarTrueHeight
 let tabBarTrueHeight: CGFloat = 49.0
+
+let baseURL: String = "https://jetdevs.mocklab.io/"
+
+enum AuthKeys: String {
+    case kLoginUser     = "currentUser"
+    case kAuthToken     = "authToken"
+    
+    var string: String {
+        return self.rawValue
+    }
+}
+
+enum AppDateFormates: String {
+    case yyyyMMddHHmmssTZ           = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+}

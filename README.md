@@ -2,7 +2,6 @@
 ## Login Activity with data validation, Login API call using URL Session with RxSwift and MVVM Architecture
 
 ## Used Libraries in project
-![UIKit]()
 [![Swift](https://img.shields.io/badge/Swift-5-orange?style=for-the-badge)]()
 [![RxSwift](https://img.shields.io/badge/RxSwift-5.1.0-blue?style=for-the-badge)](https://github.com/ReactiveX/RxSwift.git)
 [![Kingfisher](https://img.shields.io/badge/Kingfisher-7.1.0-blue?style=for-the-badge)](https://github.com/onevcat/Kingfisher.git)
